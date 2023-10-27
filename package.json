@@ -1,0 +1,27 @@
+{
+  "name": "my-game",
+  "type": "module",
+  "scripts": {
+    "build": "RPG_TYPE=rpg rpgjs build",
+    "dev": "RPG_TYPE=rpg rpgjs dev",
+    "start": "node dist/server/main.mjs"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "dependencies": {
+    "@rpgjs/client": "4.1.1",
+    "@rpgjs/default-gui": "^4.1.1",
+    "@rpgjs/gamepad": "^4.1.1",
+    "@rpgjs/mobile-gui": "^4.1.1",
+    "@rpgjs/server": "4.1.1",
+    "@rpgjs/standalone": "4.1.1",
+    "@rpgjs/types": "4.0.5",
+    "socket.io-client": "4.7.2"
+  },
+  "devDependencies": {
+    "@rpgjs/compiler": "4.1.1",
+    "prettier": "^3.0.3",
+    "typescript": "5.2.2"
+  }
+}
